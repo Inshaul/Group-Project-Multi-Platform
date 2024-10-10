@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Gameplay.Interactions;
 using UnityEngine;
 
-public class Customobject : MonoBehaviour
+public class Customobject : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Interact()
     {
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        Debug.Log("Object Touched ...");
         
     }
 }
