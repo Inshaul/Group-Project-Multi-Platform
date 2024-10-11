@@ -13,11 +13,17 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private bool isGround;
     [SerializeField]
+    private bool isCrouching;
+    
+    public bool isRunning;
+    [SerializeField]
     private Vector2 lookDir;
 
     public float topOffset;  //distance above player's head to block jumping
     public float bottomOffset;   //distance below player's feet to enable jumping and falling
     public float moveSpeed;
+    public float runSpeed;
+    public float crouchSpeed;
     public float gravity;
     public float velocity;
     public float lookSensX;
@@ -25,9 +31,11 @@ public class Movement : MonoBehaviour
 
     public Camera childCamera;
     public CharacterController characterController;
-   
+    public MeshRenderer crouchMesh;
+    public MeshRenderer standMesh;
     void Start()
     {
+        standMesh = GetComponent<MeshRenderer>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -39,14 +47,23 @@ public class Movement : MonoBehaviour
         //rotate character by mouseY
         transform.Rotate(Vector3.up, lookDir.x * lookSensX * Time.deltaTime);
         
-        //movement & gravity
+        //move or run or crouch
         Vector3 moveDelta = transform.right * moveDir.x + transform.forward * moveDir.y;
-        moveDelta *= moveSpeed * Time.deltaTime;
+        float speed;
+        if (isRunning){
+            speed = runSpeed;
+        }else if (isCrouching){
+            speed = crouchSpeed;
+        }else{
+            speed = moveSpeed;
+        }
+        moveDelta *= speed * Time.deltaTime;
+
+        //vertical velocity
         if (isTopBlocked()){
             //  jump not allowed
             velocity = -1f;
         }
-        
         if (!isGrounded()){
             //  falling or jumping
             velocity -= Time.deltaTime * gravity;
@@ -82,10 +99,40 @@ public class Movement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext callbackContext)
     {
-        if(callbackContext.started &&
-            Physics.Raycast(transform.position, Vector3.down, bottomOffset + characterController.height / 2))
+        if(callbackContext.started && isGrounded())
         {
             velocity = 5;
+        }
+    }
+
+    public void OnCrouch(InputAction.CallbackContext callbackContext)
+    {
+        if (callbackContext.started && isGrounded())
+        {
+            isCrouching = true;
+            characterController.height = 1;
+            characterController.center -= new Vector3(0, 0.5f, 0);
+            standMesh.enabled = false;
+            crouchMesh.enabled = true;
+            childCamera.transform.position -= new Vector3(0, 0.75f, 0);
+        }
+        else if (callbackContext.canceled)
+        {
+            isCrouching = false;
+            characterController.height = 2;
+            characterController.center = Vector3.zero;
+            crouchMesh.enabled = false;
+            standMesh.enabled = true;
+            childCamera.transform.position += new Vector3(0, 0.75f, 0);
+        }
+    }
+
+    public void OnRun(InputAction.CallbackContext callbackContext)
+    {
+        if (callbackContext.started && isGrounded()) {
+            isRunning = true;
+        }else if (callbackContext.canceled || !isGrounded()){
+            isRunning = false;
         }
     }
 
