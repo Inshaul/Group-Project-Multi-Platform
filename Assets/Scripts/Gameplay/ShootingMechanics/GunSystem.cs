@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-using EZCameraShake;
+//using EZCameraShake;
 
 
 public class GunSystem : MonoBehaviour
@@ -28,7 +28,7 @@ public class GunSystem : MonoBehaviour
     public GameObject bulletHoleGraphic;
 
     public ParticleSystem muzzleFlash;
-    public CameraShaker camShake;
+    //public CameraShaker camShake;
     public float camShakeMagnitude, camShakeDuration;
     public TextMeshProUGUI text;
 
