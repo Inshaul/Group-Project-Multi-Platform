@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class EnemyFollow : MonoBehaviour
+public class FollowScript : MonoBehaviour
 {
-    public Transform targetObj
-        ;
+
+    public NavMeshAgent enemy;
+    public Transform player;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +19,6 @@ public class EnemyFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(this.transform.position, targetObj.position, 10 * Time.deltaTime);
+        enemy.SetDestination(player.position);
     }
 }
