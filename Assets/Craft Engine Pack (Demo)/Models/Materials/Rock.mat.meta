@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c03f6b29a2b4c9e4a8845c29a411c405
+timeCreated: 1486676058
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Models/Materials/Rock.mat
+  uploadId: 171513

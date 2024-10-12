@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c701062e7f151444c97453578e21f34c
+timeCreated: 1486673969
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Models/Materials/Wood.mat
+  uploadId: 171513

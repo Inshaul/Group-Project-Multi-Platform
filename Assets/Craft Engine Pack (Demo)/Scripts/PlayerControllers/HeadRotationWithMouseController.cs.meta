@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ac2bd58e55c0f164daec4ea5c08ec366
+timeCreated: 1485885581
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/PlayerControllers/HeadRotationWithMouseController.cs
+  uploadId: 171513

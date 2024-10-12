@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae2223e7d280de047943a5ddf81f4267
+timeCreated: 1486071221
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Prefab/CraftButton.prefab
+  uploadId: 171513

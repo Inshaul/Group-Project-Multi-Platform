@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85d91e9014e5e3848b07d954d4b9a482
+timeCreated: 1487000816
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Prefabs/Door.prefab
+  uploadId: 171513

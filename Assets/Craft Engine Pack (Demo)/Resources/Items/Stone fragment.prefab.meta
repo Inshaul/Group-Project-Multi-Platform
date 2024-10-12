@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 01ac4c089fc4bf04cbf96e02dfcf7725
+timeCreated: 1485967960
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Items/Stone fragment.prefab
+  uploadId: 171513

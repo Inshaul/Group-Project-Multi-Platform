@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6cef07569151a2e4a99bbc2545b6e62f
+timeCreated: 1487093875
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Samples/Materials/Bark.mat
+  uploadId: 171513
