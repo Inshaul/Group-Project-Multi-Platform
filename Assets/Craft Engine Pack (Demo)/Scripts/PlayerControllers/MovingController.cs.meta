@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: da26a79bb63e44b488f6ec2a303c1cea
+timeCreated: 1485885485
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/PlayerControllers/MovingController.cs
+  uploadId: 171513

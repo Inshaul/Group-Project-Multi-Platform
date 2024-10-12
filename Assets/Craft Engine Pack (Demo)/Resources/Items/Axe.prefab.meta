@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce2f537beaeb66544a7a5f1d503880e0
+timeCreated: 1485967960
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Items/Axe.prefab
+  uploadId: 171513

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c4ee34b6113268448e1a7ca3c44ad90
+timeCreated: 1486673968
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Models/Materials/Leaf.mat
+  uploadId: 171513

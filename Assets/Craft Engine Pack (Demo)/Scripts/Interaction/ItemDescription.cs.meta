@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: fc9c8879c1dc54a4ca8bf954586e1537
+timeCreated: 1485968171
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Interaction/ItemDescription.cs
+  uploadId: 171513

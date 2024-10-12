@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3706c29c60b32904ab4ed285713c3ba8
+timeCreated: 1487000813
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Prefabs/Wall.prefab
+  uploadId: 171513

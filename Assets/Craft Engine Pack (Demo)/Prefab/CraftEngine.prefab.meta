@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de9d8d20075a60d48b17adfadd97ab7b
+timeCreated: 1487014858
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Prefab/CraftEngine.prefab
+  uploadId: 171513

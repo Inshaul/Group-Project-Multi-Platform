@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6086177c996c3664e8b69fbcf935a78b
+timeCreated: 1486072837
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Inventory/CellArmor.cs
+  uploadId: 171513

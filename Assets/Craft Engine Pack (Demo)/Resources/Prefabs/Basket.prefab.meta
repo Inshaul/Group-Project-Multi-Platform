@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30d1c4337d9a2b94999dd2fa611dbc30
+timeCreated: 1486848401
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Prefabs/Basket.prefab
+  uploadId: 171513

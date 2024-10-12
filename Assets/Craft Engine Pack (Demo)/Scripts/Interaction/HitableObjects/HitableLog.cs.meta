@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3378196f675c32943ba6a26e1352f482
+timeCreated: 1487012639
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Interaction/HitableObjects/HitableLog.cs
+  uploadId: 171513

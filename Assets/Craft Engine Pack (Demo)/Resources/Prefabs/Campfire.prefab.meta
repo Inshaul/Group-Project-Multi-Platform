@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eeba935b1e953344ebb5252f632657f7
+timeCreated: 1487000911
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Prefabs/Campfire.prefab
+  uploadId: 171513

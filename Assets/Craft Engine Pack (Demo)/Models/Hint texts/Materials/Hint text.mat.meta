@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d305c220ba926f4a8e9260f3ae52c9d
+timeCreated: 1487015981
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Models/Hint texts/Materials/Hint text.mat
+  uploadId: 171513

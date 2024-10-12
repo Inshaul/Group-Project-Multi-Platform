@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 062be0ea81bf81241934048200fb8452
+timeCreated: 1486482808
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Materials/GhostImpossiblePlacement.mat
+  uploadId: 171513

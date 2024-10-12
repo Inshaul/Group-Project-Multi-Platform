@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1b1d7201e8a33254fa594a1919d221e9
+timeCreated: 1486073942
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Items/Equipment/Armor.cs
+  uploadId: 171513
