@@ -40,19 +40,19 @@ public class GunSystem : MonoBehaviour
     }
     private void Update()
     {
-        MyInput();
+        //MyInput();
 
 
         //SetText
         text.SetText(bulletsLeft + " / " + magazineSize);
     }
-    private void MyInput()
+    public void MyInput()
     {
         if (allowButtonHold) shooting = Input.GetKey(KeyCode.Mouse0);
         else shooting = Input.GetKeyDown(KeyCode.Mouse0);
 
 
-        if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !reloading) Reload();
+        //if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !reloading) Reload();
 
 
         //Shoot
@@ -113,10 +113,13 @@ public class GunSystem : MonoBehaviour
     {
         readyToShoot = true;
     }
-    private void Reload()
+    public void Reload()
     {
-        reloading = true;
-        Invoke("ReloadFinished", reloadTime);
+
+        if(bulletsLeft < magazineSize && !reloading){
+            reloading = true;
+            Invoke("ReloadFinished", reloadTime);
+        }
     }
     private void ReloadFinished()
     {
