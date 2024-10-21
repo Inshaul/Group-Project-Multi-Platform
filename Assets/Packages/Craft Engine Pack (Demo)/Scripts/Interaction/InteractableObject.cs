@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour {
     public ItemDescription m_itemDescription;
-    public virtual void Interact() { }
+    public virtual void Interact() {
+        
+    }
 }

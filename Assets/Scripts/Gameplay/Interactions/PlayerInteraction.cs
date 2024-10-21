@@ -8,6 +8,7 @@ public class PlayerInteraction : MonoBehaviour
 {
     public float interactDistance = 3f;  // Max distance to interact
     private Interactable interactable; // Reference to interactable object
+    public PlayerInput PlayerInput;
 
     void Update()
     {
@@ -50,6 +51,14 @@ public class PlayerInteraction : MonoBehaviour
         if(callback.started && interactable != null)
         {
             interactable.Interact();
+        }
+    }
+
+    public void OnUIExit(InputAction.CallbackContext ctx){
+        if(ctx.started){
+            PlayerInput.SwitchCurrentActionMap("Player");
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }
