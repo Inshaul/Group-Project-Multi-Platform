@@ -17,6 +17,8 @@ public class CaveGate : Interactable
     // This method switches to the next scene
     void SwitchScene()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         // Resume the game time in case it was paused
         Time.timeScale = 0;
 

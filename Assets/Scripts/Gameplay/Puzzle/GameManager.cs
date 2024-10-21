@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 
 public class GameManager : MonoBehaviour
 {
@@ -11,11 +13,24 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMPro.TextMeshProUGUI timeText;
     [SerializeField] private TMPro.TextMeshProUGUI scoreText;
 
+    [SerializeField] private Button ExitButton;
+
     private float startingTime = 15f;
     private float timeRemaining;
     private HashSet<Alien> currentAliens = new HashSet<Alien>();
     private int score;
     private bool playing = false;
+
+    private void Start(){
+        ExitButton.onClick.RemoveAllListeners();
+        ExitButton.onClick.AddListener(()=>{
+            SceneManager.LoadScene("Prototype");
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            // Resume the game time in case it was paused
+            Time.timeScale = 1;
+        });
+    }
 
     public void StartGame() {
         Debug.Log("Game Started!");
