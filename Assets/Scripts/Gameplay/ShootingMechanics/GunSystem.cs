@@ -28,7 +28,7 @@ public class GunSystem : MonoBehaviour
     public GameObject bulletHoleGraphic;
 
     public ParticleSystem muzzleFlash;
-    //public CameraShaker camShake;
+    //public CameraShaker camShake; // To be done later
     public float camShakeMagnitude, camShakeDuration;
     public TextMeshProUGUI text;
 
@@ -84,14 +84,16 @@ public class GunSystem : MonoBehaviour
 
             if (rayHit.collider.CompareTag("Enemy"))
             {
-                //rayHit.collider.GetComponent<ShootingAi>().TakeDamage(damage);
+                //rayHit.collider.GetComponent<ShootingAi>().TakeDamage(damage); // To be done later
+                GameObject obj = rayHit.collider.gameObject;
+                Destroy(obj);
 
             }
         }
 
 
         //ShakeCamera
-        //camShake.Shake(camShakeDuration, camShakeMagnitude);
+        //camShake.Shake(camShakeDuration, camShakeMagnitude); // To be done later
 
 
         //Graphics
