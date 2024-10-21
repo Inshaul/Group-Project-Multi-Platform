@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     private bool playing = false;
 
     public void StartGame() {
+        Debug.Log("Game Started!");
         playButton.SetActive(false);
         outOfTimeText.SetActive(false);
         gameUI.SetActive(true);
