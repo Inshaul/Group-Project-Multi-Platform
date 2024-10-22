@@ -44,7 +44,7 @@ public class GunSystem : MonoBehaviour
 
 
         //SetText
-        text.SetText(bulletsLeft + " / " + magazineSize);
+        text.SetText(bulletsLeft + "/" + magazineSize);
     }
     public void MyInput()
     {
