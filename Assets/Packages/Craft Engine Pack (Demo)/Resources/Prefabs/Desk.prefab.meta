@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b37553614b392b4bb46b622a8ec1798
+timeCreated: 1486848580
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Prefabs/Desk.prefab
+  uploadId: 171513

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6a5969b0a05adc42b7a74562078f926
+timeCreated: 1485967960
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Items/Rock.prefab
+  uploadId: 171513

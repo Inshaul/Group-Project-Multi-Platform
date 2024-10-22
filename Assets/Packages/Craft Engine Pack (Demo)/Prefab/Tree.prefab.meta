@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b773184fb0630e4e9849d2a27c4c1e4
+timeCreated: 1486819625
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Prefab/Tree.prefab
+  uploadId: 171513

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 97e00d13fc92f2946ab66ee8753081e4
+timeCreated: 1485899962
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Inventory/Inventory.cs
+  uploadId: 171513

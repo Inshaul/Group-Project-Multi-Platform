@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d03aba98ee1249344a5c35a333c72662
+timeCreated: 1487093877
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Samples/Materials/Log core.mat
+  uploadId: 171513

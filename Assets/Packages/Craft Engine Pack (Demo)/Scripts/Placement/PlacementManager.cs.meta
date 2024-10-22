@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6b4cce993b66ff04eb6f25a0d0e45da1
+timeCreated: 1486478165
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Placement/PlacementManager.cs
+  uploadId: 171513

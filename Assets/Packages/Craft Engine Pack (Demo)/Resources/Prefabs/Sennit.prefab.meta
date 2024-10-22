@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48a7a788d4a1f9544b2f4dbe0fb57475
+timeCreated: 1486848396
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Prefabs/Sennit.prefab
+  uploadId: 171513

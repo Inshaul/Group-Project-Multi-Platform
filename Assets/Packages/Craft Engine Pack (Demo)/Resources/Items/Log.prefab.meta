@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 265b66ba52dbd8c46b34b62c3b8a26c2
+timeCreated: 1485967960
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Items/Log.prefab
+  uploadId: 171513

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1edc6bdccb59d5746949ca5c30f9caed
+timeCreated: 1489017551
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/ReadMe.txt
+  uploadId: 171513

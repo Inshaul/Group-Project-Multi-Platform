@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5df195182cf071b4baad7f050f2adefd
+timeCreated: 1486404633
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Scripts/Interaction/Tool.cs
+  uploadId: 171513

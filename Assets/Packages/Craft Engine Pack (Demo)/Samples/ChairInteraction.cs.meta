@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ab3d0910e7613e7478faa586aaf22a2d
+timeCreated: 1487094993
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Samples/ChairInteraction.cs
+  uploadId: 171513

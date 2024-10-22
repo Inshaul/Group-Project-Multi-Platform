@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3504481be138c84589d8ea560aa7c60
+timeCreated: 1485970687
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Prefab/Cell.prefab
+  uploadId: 171513

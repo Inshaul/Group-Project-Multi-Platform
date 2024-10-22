@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9295b125efa09bb42b94f19b67b50e81
+timeCreated: 1486824473
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Models/Materials/Hammer stick.mat
+  uploadId: 171513

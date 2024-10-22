@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3216f6450a2b3443989aef503526a36
+timeCreated: 1485967960
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87145
+  packageName: Craft Engine Pack (Demo)
+  packageVersion: 1.0
+  assetPath: Assets/Craft Engine Pack (Demo)/Resources/Items/Hammer.prefab
+  uploadId: 171513
