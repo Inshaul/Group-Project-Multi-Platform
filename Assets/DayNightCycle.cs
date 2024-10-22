@@ -26,12 +26,20 @@ public class DayNightCycle : MonoBehaviour
         float timePercent = currentTime / dayDuration;
 
         // Rotate the light to simulate the sun's movement
-        directionalLight.transform.rotation = Quaternion.Euler((timePercent * 360f) - 90f, 170f, 0f);
+        directionalLight.transform.rotation = Quaternion.Euler((currentTime / dayDuration * 360f) - 90f, 170f, 0f);
 
-        // Lerp between day and night color based on the cycle
-        directionalLight.color = Color.Lerp(nightColor, dayColor, Mathf.Clamp01((Mathf.Sin(timePercent * Mathf.PI * 2) + 1f) / 2f));
+        // Lerp between day and night color
+        directionalLight.color = Color.Lerp(nightColor, dayColor, Mathf.Clamp01((Mathf.Sin(currentTime / dayDuration * Mathf.PI * 2) + 1f) / 2f));
 
-        // Adjust intensity based on the current time of day
-        directionalLight.intensity = Mathf.Lerp(minIntensity, maxIntensity, Mathf.Clamp01((Mathf.Sin(timePercent * Mathf.PI * 2) + 1f) / 2f));
+        // Manually force the light to refresh
+        directionalLight.intensity = Mathf.Lerp(minIntensity, maxIntensity, Mathf.Clamp01((Mathf.Sin(currentTime / dayDuration * Mathf.PI * 2) + 1f) / 2f));
+        
+        // Call this to ensure WebGL picks up the changes
+        directionalLight.enabled = false;
+        directionalLight.enabled = true;
+
+
+
+        
     }
 }
