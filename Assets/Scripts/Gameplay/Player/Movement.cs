@@ -36,8 +36,6 @@ public class Movement : MonoBehaviour
     void Start()
     {
         standMesh = GetComponent<MeshRenderer>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void Update()
